@@ -1,0 +1,570 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Krave</string>
+    <string name="action_settings">Configurações</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="gcm_error">From GCM: error (%1$s).</string>
+    <string name="gcm_recoverable_error">From GCM: recoverable error (%1$s).</string>
+    <string name="gcm_deleted">From GCM: server deleted %1$d pending messages!</string>
+    <string name="gcm_unregistered">From GCM: device successfully unregistered!</string>
+    <!-- <string name="app_id">1617042421854159</string> -->
+    <string name="app_id">665389216877994</string>
+    <string name="ga_trackingId">UA-53195174-1</string>
+
+    <!-- Enable automatic activity tracking -->
+    <bool name="ga_autoActivityTracking">true</bool>
+
+    <!-- Enable automatic exception tracking -->
+    <bool name="ga_reportUncaughtExceptions">true</bool>
+
+    <string name="crash_dialog_text">Ocorreu um erro inesperado que forçou o aplicativo a ser interrompido. Por favor ajude-me a consertá-lo enviando os dados do erro, basta clicar em \'OK\'.</string>
+    <string name="crash_dialog_comment_prompt">Abaixo você poderá adicionar comentários sobre o erro:</string>
+    <string name="crash_notif_ticker_text">Erro inesperado, favor enviar relatório...</string>
+    <string name="crash_notif_title">Houve um erro...</string>
+    <string name="crash_notif_text">Favor clicar aqui para ajudar a resolver o erro.</string>
+    <string name="launch_editor">Iniciar Editor</string>
+    <string name="choose_photo">Escolher uma Foto</string>
+    <string name="external_storage_na_title">Atenção</string>
+    <string name="external_storage_na_message">sdcard ausente ou não encaixado corretamente. Impossível continuar.</string>
+    <string name="get_mobile_library">Ir à Biblioteca do Android</string>
+    <string name="view_documentation">Ver Documentação</string>
+    <string name="hi_res_service_label">HI-RES Service</string>
+    <string name="crash_toast_text">Oooooops! Eu travei, mas um relatório foi enviado ao meu programador para que ele resolva o problema!</string>
+    <string name="image_details">Detalhes da Imagem</string>
+
+    <!-- Main Page -->
+    <string name="ma_crop_ver1_button">Iniciar Algoritmo de Recorte Versão 1</string>
+    <string name="ma_crop_ver2_button">Iniciar Algoritmo de Recorte Versão 2</string>
+    <string name="ma_info_text">Clique no botão abaixo para recortar a imagem.</string>
+
+    <!-- Crop Page -->
+
+    <string name="cp_info_text">Redimensionar/Mover Imagem para Incluir o Rosto Dentro do Círculo Laranja</string>
+    <string name="cp_image_contentDesc">Imagem</string>
+    <string name="cp_template_contentDesc">Modelo</string>
+    <string name="cp_change_img_contentDesc">Alterar Imagem</string>
+    <string name="cp_crop_button">Recortar Imagem</string>
+    <string name="cp_template_button">Alterar Modelo</string>
+
+    <!-- Select Dialog -->
+    <string name="sd_select_template_text">Selecionar Modelo</string>
+    <string name="sd_icon_contentDesc">Ícones do Modelo</string>
+
+    <!-- Language Spinner -->
+    <string-array name="country_arrays">
+        <item>português</item>
+    </string-array>
+    <string-array name="language_arrays">
+        <item>Inglês</item>
+        <item>spanish</item>
+        <item>português</item>
+    </string-array>
+    <string-array name="ethnicity_sample">
+        <item>Branco</item>
+        <item>Negro</item>
+        <item>Asiático</item>
+        <item>Latino</item>
+        <item>Outro</item>
+    </string-array>
+    <string-array name="role_sample">
+        <item>Ativo</item>
+        <item>Ativo/Versátil</item>
+        <item>Passivo</item>
+        <item>Passivo/Versátil</item>
+        <item>Versátil</item>
+        <item>Prefiro Não Dizer</item>
+    </string-array>
+
+    <!-- Relationship Status spinner -->
+    <string-array name="relationship_status_array">
+        <item>Solteiro</item>
+        <item>Em um Relacionamento</item>
+        <item>Não Mostrar</item>
+        <item>Relacionamento Aberto</item>
+    </string-array>
+    <!-- INTEREST -->
+    <string-array name="interest_array">
+        <item>MÚSICA</item>
+        <item>DANÇA</item>
+        <item>MÚSCULO</item>
+        <item>TWINK</item>
+        <item>COURO</item>
+        <item>MILITAR</item>
+        <item>COLLEGE</item>
+        <item>POZ</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>TRANSGENDER</item>
+        <item>COWBOY</item>
+    </string-array>
+    <!-- BODY TYPE ARRAY -->
+    <string-array name="body_type_array">
+        <item>indeciso</item>
+        <item>Esbelto</item>
+        <item>médio</item>
+        <item>atlético</item>
+        <item>grande</item>
+    </string-array>
+
+    <!-- SPLASH SCREEN STRING CONSTANTS -->
+    <string name="splash_already_a_krave_user">Já é um usuário do Krave?</string>
+    <string name="splash_login_here"><u>Faça o Login Aqui</u></string>
+
+    <!-- ABOUT ME SCREEN -->
+    <string name="aboutme_save">Salvar</string>
+    <string name="aboutme_About_me_xxx_characters">Sobre mim (xxx caracteres)</string>
+
+    <!-- ADD PHOTO SCREEN -->
+    <string name="addphoto">Adicionar Foto</string>
+    <string name="addphoto_privacy">Privacidadey</string>
+    <string name="addphoto_public">Público</string>
+    <string name="addphoto_private">Privado</string>
+    <string name="addphoto_upload_photo">CARREGAR FOTO</string>
+
+    <!-- BLOCK SCREEN -->
+    <string name="block_what_do_you_want">O que você quer</string>
+    <string name="block_to_do">fazer?</string>
+    <string name="block_want_to_do">quer fazer?</string>
+
+    <!-- REPORT SCREEN -->
+    <string name="report_cancel">Cancelar</string>
+    <string name="report_report">Denunciar</string>
+    <string name="report_guy_name">Nome do Homem</string>
+    <string name="report_why_are_you_reporting_this_guy">Por que você está denunciando este homem?</string>
+    <string name="report_spam">Spam</string>
+    <string name="report_inappropriateoffensive">Inapropriado/Ofensivo</string>
+    <string name="report_other">Outro</string>
+
+    <!-- CROP SCREEN -->
+    <string name="crop_crop_image">RECORTAR IMAGEM</string>
+    <string name="crop_Cancel">Cancelar</string>
+    <string name="crop_Save">Salvar</string>
+    <string name="crop_Crop">RECORTAR</string>
+
+    <!-- FEEDBACK SCREEN -->
+    <string name="feedback_give_us_feedback">Dê um feedback!</string>
+
+    <!-- FORGOT PASSWORD SCREEN -->
+    <string name="forgotpassword_forgotten_your_password">Esqueceu sua senha?</string>
+    <string name="forgotpassword_enter_your_email">insira seu email</string>
+    <string name="forgotpassword_subtitel">Nós te enviaremos um link para alterar sua senha. Favor inserir o endereço de email utilizado no registro e entraremos em contato em breve.</string>
+    <string name="forgotpassword_send">MANDAR</string>
+    <string name="forgotpassword_cancel">CANCELAR</string>
+
+    <!-- FORGOT EMAIL SCREEN -->
+    <string name="forgot_email_forgot_your_email">Esqueceu o seu e-mail?</string>
+    <string name="forgotemail_subtitel">Digite seu número de telefone e nós vamos mostrar que você usou e-mail e enviar-lhe um link de redefinição de senha.</string>
+    <string name="forgotemail_enter_your_phone_number">digite o seu número de telefone</string>
+
+    <!-- LOGIN SCREEN -->
+    <string name="login_email">	\tEmail</string>
+    <string name="login_password">\tSenha</string>
+    <string name="login_forgot_password">Esqueceu sua senha?</string>
+    <string name="login_forgot_your_email">Esqueceu Seu e-mail?</string>
+    <string name="login_sign_in_with_social">Entrar com Rede Social</string>
+    <string name="login_not_a_krave_user_yet">Ainda Não É Usuário do Krave?</string>
+
+    <!-- REGISTRATION SCREEN -->
+    <string name="registration_language">Idioma</string>
+    <string name="registration_name">Mostrar nome</string>
+    <string name="registration_email">Email</string>
+    <string name="registration_mobile">Dispositivo Móvel</string>
+    <string name="registration_password">Senha</string>
+    <string name="registration_confirm_password">Confirmar Senha</string>
+    <string name="registration_accept">Aceitar</string>
+    <string name="registration_terms_and_conditions">Termos e Condições</string>
+    <string name="registration_submit">Enviar</string>
+    <string name="registration_what_are_you">O que você é?</string>
+    <string name="registration_height">Altura</string>
+    <string name="registration_weight">Peso</string>
+    <string name="registration_age">Idade</string>
+    <string name="registration_don_t_show">Não Mostrar</string>
+    <string name="registration_relationship_status">Status de Relacionamento</string>
+    <string name="registration_single">Solteiro</string>
+    <string name="registration_in_a_relationship">Em um Relacionamento</string>
+    <string name="registration_open_relationship">Relacionamento Aberto</string>
+    <string name="registration_don_post_show">Não Mostrar</string>
+    <string name="registration_what_do_you_krave">Qual seu interesse?</string>
+    <string name="registration_interest">Interesse</string>
+    <string name="registration_profile">Perfil</string>
+    <string name="registration_about_me_180_max_characters">Sobre mim (máx. 180 caracteres)</string>
+    <string name="registration_please_fill_in_your">Favor inserir seu</string>
+    <string name="registration_years">Anos</string>
+    <string name="registration_term_and_conditions">TERMOS E CONDIÇÕES</string>
+
+    <!-- RIGHT PANEL SCREEN -->
+    <string name="rightpanel_search">Pesquisar...</string>
+    <string name="rightpanel_edit">Editar</string>
+    <string name="rightpanel_clear_all">Limpar Tudo</string>
+    <string name="rightpanel_cancel">Cancelar</string>
+    <string name="rightpanel_delete">Deletar</string>
+
+    <!-- LEFT PANEL SCREEN -->
+    <string name="leftpanel_profile">Perfil</string>
+    <string name="leftpanel_find_guys">Encontrar Homens</string>
+    <string name="leftpanel_search_city">Pesquisar Cidade</string>
+    <string name="leftpanel_daily_krave">Krave Diário</string>
+    <string name="leftpanel_favorites">Favoritos</string>
+    <string name="leftpanel_nightlife_finder">Vida noturna do Finder</string>
+    <string name="leftpanel_notifications">Notificações</string>
+    <string name="leftpanel_settings">Configurações</string>
+    <string name="leftpanel_contact_us">Contato</string>
+    <string name="leftpanel_logout">Sair</string>
+
+    <!-- CHAT SCREEN -->
+    <string name="chat_add_to_list">ADICIONAR A LISTA</string>
+    <string name="chat_view_profile">VER PERFIL</string>
+    <string name="chat_block_this_user">BLOQUEAR ESTE USUÁRIO</string>
+    <string name="chat_delete_history">DELETAR HISTÓRICO</string>
+    <string name="chat_cancel">Cancelar</string>
+    <string name="chat_take_a_picture">TIRAR UMA FOTO</string>
+    <string name="chat_from_gallery">DA GALERIA</string>
+    <string name="chat_share_picture">COMPARTILHAR FOTO</string>
+    <string name="chat_share_picturevideo">COMPARTILHAR FOTO/VÍDEO</string>
+    <string name="chat_share_private_photo">Share Foto PRIVATE</string>
+    <string name="chat_share_location">COMPARTILHAR LOCALIZAÇÃO</string>
+    <string name="chat_3_seconds">3 segundos</string>
+    <string name="chat_7_seconds">7 segundos</string>
+    <string name="chat_11_seconds">11 segundos</string>
+    <string name="chat_unlimited">Ilimitado</string>
+
+    <!-- HOME SCREEN -->
+    <string name="home_show_online_only">Mostrar Online Apenas</string>
+    <string name="home_photos">Fotos</string>
+    <string name="home_interests">Interesses</string>
+    <string name="home_love">Ame</string>
+    <string name="home_fun">Diversão</string>
+    <string name="home_undecided">indeciso</string>
+    <string name="home_miles_away">\tmilhas ausente</string>
+    <string name="home_online">conectados\t</string>
+    <string name="home_online_recently">on-line recentemente</string>
+    <string name="home_days">\tdias\t</string>
+    <string name="home_hours">\thoras\t</string>
+    <string name="home_minutes">\tminutos\t</string>
+    <string name="home_ago">atrás</string>
+    <string name="home_online_now">online agora</string>
+    <string name="home_not_online_in_last_7_days">Não on-line nos últimos 7 dias</string>
+    <!-- PROFILE SCREEN -->
+    <string name="profile_personal_information">Informação Pessoal</string>
+    <string name="profile_photos">Fotos</string>
+    <string name="profile_description">Descrição</string>
+    <string name="profile_interests">Interesses</string>
+    <string name="profile_body_type">Filtrar por Tipo Físico</string>
+    <string name="profile_looking_for">Procurando</string>
+    <string name="profile_love">AMOR</string>
+    <string name="profile_fun">Diversão</string>
+    <string name="profile_large">LARGO</string>
+    <string name="profile_athletic">ATLÉTICO</string>
+    <string name="profile_medium">NORMAL</string>
+    <string name="profile_slim">MAGRO</string>
+    <string name="profile_name">Nome</string>
+    <string name="profile_country">País</string>
+    <string name="profile_ethnicity">Etnia</string>
+    <string name="profile_role">Posição</string>
+    <string name="profile_relationship_status">Status de Relacionamento</string>
+    <string name="profile_say_something_here...">Diga algo aqui...</string>
+    <string name="profile_submit">Enviar</string>
+    <string name="profile_about_me_default_string">Ei, eu sou novo para Krave! Eu não terminei a criação de meu perfil. Mensagem mim para saber mais.</string>
+
+    <!-- SEARCH CITY SCREEN -->
+    <string name="search_city">Pesquisar Cidade</string>
+
+    <!-- FAVORITE SCREEN -->
+    <string name="favorite_select_all">Selecionar Tudo</string>
+    <string name="favorite_cancel">Cancelar</string>
+    <string name="favorite_add_list">Adicionar Lista</string>
+
+    <!-- FILTER SCREEN -->
+
+    <string name="filter_looking_for">Procurando</string>
+    <string name="filter_love">Amor</string>
+    <string name="filter_fun">DIVERSÃO</string>
+    <string name="filter_filter_by_age">Filtrar Por Idade</string>
+    <string name="filter_filter_by_radius">Filtrar Por Raio</string>
+    <string name="filter_filter_by_ethnicity">Filtrar Por Etnia</string>
+    <string name="filter_filter_by_role">Filtrar Por Posição</string>
+    <string name="filter_filter_by_interest">Filtrar Por Interesse</string>
+    <string name="filter_filter_by_body_type">Filtrar Por Tipo Físico</string>
+    <string name="filter_slim">Magro</string>
+    <string name="filter_medium">Normal</string>
+    <string name="filter_athletic">ATLÉTICO</string>
+    <string name="filter_large">LARGO</string>
+    <string name="filter_clear_all">LIMPAR TUDO</string>
+    <string name="filter_year_old">\tYear old</string>
+    <string name="filter_miles">\tMilhas</string>
+
+    <!-- SETTING SCREEN -->
+    <string name="setting_enable_gps_reminders">Habilitar Lembretes de GPS</string>
+    <string name="setting_update_info">Atualizar Informações</string>
+    <string name="setting_mobile">Dispositivo Móvel</string>
+    <string name="setting_email">Email</string>
+    <string name="setting_notifications">Notificações</string>
+    <string name="setting_save">Salvar</string>
+    <string name="setting_change_password">Alterar Senha</string>
+    <string name="setting_old_password">Senha Antiga</string>
+    <string name="setting_new_password">Senha Nova</string>
+    <string name="setting_confirm_password">Confirmar Senha</string>
+    <string name="setting_save_chat_history">Salvar Histórico de Chat</string>
+    <string name="setting_show_age_weight_and_height">Mostrar Idade, Peso e Altura</string>
+    <string name="setting_show">Mostrar</string>
+    <string name="setting_view_find_guys">Encontrar Rapazes</string>
+    <string name="setting_view_guys_distance_by_transit_time">Ver Distância dos Homens por Tempo no Trânsito</string>
+    <string name="setting_delete_account">Excluir Conta</string>
+    <string name="setting_change_language">Alterar idioma</string>
+    <string name="setting_24_hours">24 Horas</string>
+    <string name="setting_7_days">7 Dias</string>
+    <string name="setting_forever">Sempre</string>
+    <string name="setting_two_column">Duas-Colunas</string>
+    <string name="setting_three_column">Três-Colunas</string>
+    <string name="setting_default">Padrão</string>
+    <string name="setting_walking">A pé</string>
+    <string name="setting_biking">De bicicleta</string>
+    <string name="setting_driving">De carro</string>
+    <string name="setting_public_transit">Transporte Público</string>
+
+    <!-- NOTIFICATION SCREEN -->
+    <string name="notification_you_have_an_image_request.">Você tem um pedido de imagem.</string>
+    <string name="notification_your_request_is_accepted.">Seu pedido foi aceito.</string>
+    <string name="notification_your_request_is_declined.">Seu pedido foi rejeitado.</string>
+
+    <!-- SCREENS TITELS -->
+    <string name="titel_create_your_account">Crie Sua Conta</string>
+    <string name="titel_what_are_you">O QUE VOCÊ É?</string>
+    <string name="titel_update_info">ATUALIZAR INFORMAÇÕES</string>
+    <string name="titel_notifications">Notificações</string>
+    <string name="titel_filter">Filtro</string>
+    <string name="titel_edit_profile">Editar Perfil</string>
+    <string name="titel_favorites">Favoritos</string>
+    <string name="titel_term_and_conditions">TERMOS E CONDIÇÕES</string>
+
+    <!-- DIALOG SCREEN -->
+    <string name="dialog_do_you_really_want_to_logout">Tem certeza de que quer sair?</string>
+    <string name="dialog_send_request_to_see_his_private_photo">Você quer enviar um pedido para ver a foto privada dele?</string>
+    <string name="dialog_do_you_want_to_allow_him">Você quer dar permissão a ele?</string>
+    <string name="dialog_yes">Sim</string>
+    <string name="dialog_no">Não</string>
+    <string name="dialog_close">fechar</string>
+    <string name="dialog_cancel">Cancelar</string>
+    <string name="dialog_clear">Limpar</string>
+    <string name="dialog_set">Escolher</string>
+    <string name="dialog_this_is_how_people_see_you_on_krave_so">É assim que as pessoas te veem no Krave, então...</string>
+    <string name="dialog_no_nudity_or_obscenity">∙ Sem nudez ou obscenidade</string>
+    <string name="dialog_use_a_clear_photo"> ∙ Use uma foto clara</string>
+    <string name="dialog_be_in_a_well_lit_place">∙ Esteja em um local bem iluminado</string>
+    <string name="dialog_be_alone_in_your_photo">∙ Esteja sozinho em sua foto</string>
+    <string name="dialog_take_picture">Tirar Foto</string>
+    <string name="dialog_make_profile_picture">COLOCAR FOTO NO PERFIL</string>
+    <string name="dialog_from_gallery">Da Galeria</string>
+    <string name="dialog_delete_picture">Deletar Foto</string>
+    <string name="dialog_gps_alert">ALERTA DO GPS</string>
+    <string name="dialog_your_gps_seems_to_be_disabled_please_enable_it_to_show_dudes_near_your_location">Parece que seu GPS está desabilitado. Favor habilitá-lo para que você encontre rapazes perto de sua localização.</string>
+    <string name="dialog_photo">Foto</string>
+    <string name="dialog_please_select_time_limit">Favor selecionar limite de tempo</string>
+    <string name="dialog_do_you_want_to_send_request_to_see_his_private_photo">Você quer enviar um pedido para ver a foto privada dele?</string>
+    <string name="dialog_do_you_want_to_save_changes">Você quer salvar as alterações?</string>
+    <string name="dialog_is_requesting_to_view_your_private_photo">\tpediu para ver sua foto privada.</string>
+    <string name="dialog_has_approved_your_request_to_view_his_private_photo">\taceitou seu pedido para ver a foto privada dele.</string>
+    <string name="dialog_has_declined_your_request_to_view_his_private_photo.">\trejeitou seu pedido para ver a foto privada dele.</string>
+    <string name="dialog_do_you_really_want_to_delete_chat_history">Tem certeza de que quer deletar o histórico do chat?</string>
+    <string name="dialog_add_to_list">Adicionar a Lista</string>
+    <string name="dialog_post_location">Postar Localização</string>
+    <string name="dialog_do_you_want_to_post_your_location">Você quer postar sua localização?</string>
+    <string name="dialog_notice">Foto</string>
+    <string name="dialog_do_you_really_want_to_delete_your_account">Tem certeza de que quer deletar sua conta?</string>
+    <string name="dialog_don_t_forget_to_press_the_submit_button_at_the_bottom_of_the_screen_to_save_your_changes">Não se esqueça de clicar no botão "Enviar" no canto da tela para salvar suas alterações!</string>
+    <string name="dialog_review_love_us_leave_us_a_review">Ama-nos? Deixe-nos um comentário!</string>
+    <string name="dialog_review_not_now">Agora não</string>
+    <string name="dialog_review_yes_please">Sim por favor!</string>
+
+    <!-- TOAST MESSAGE login and forgot -->
+
+    <string name="toast_enter_email_id">Inserir id de email</string>
+    <string name="toast_enter_password">Inserir senha</string>
+    <string name="toast_email_and_or_password_is_not_correct">Email e/ou senha incorreto (a)</string>
+    <string name="toast_your_email_id_is_not_verified_please_verify_email_id">Seu id de email não foi verificado, favor verificar id de email</string>
+    <string name="toast_email_successfully_sent">Email enviado com sucesso.</string>
+    <string name="toast_email_id_is_not_correct">id de email incorreto</string>
+    <string name="toast_we_have_sent_your_password_reset_link_to">Nós enviou o seu link de redefinição de senha para\t</string>
+    <string name="toast_phone_number_is_not_correct">Número de telefone não está correto.</string>
+    <string name="toast_enter_phone_number">Digite o número de telefone</string>
+
+    <!-- TOST MESSAGE REGISTRATION -->
+    <string name="toast_select_at_least_one_interest">Favor selecionar pelo menos um interesse</string>
+    <string name="toast_please_add_profile_picture">Favor adicionar foto de Perfil</string>
+    <string name="toast_password_must_be_6_character_long">A senha deve ter 6 caracteres</string>
+    <string name="toast_enter_valid_height">Insira altura válida</string>
+    <string name="toast_enter_valid_weight">Insira peso válido</string>
+    <string name="toast_enter_valid_age">Insira idade válida</string>
+    <string name="toast_registration_successfull">Registro bem sucedido</string>
+    <string name="toast_please_check_your_email_inbox_spam_folder_and_activate_your_account">Favor verificar sua Caixa de Entrada/Pasta de Spam e ativar sua conta</string>
+    <string name="toast_user_already_exist">Usuário já existente</string>
+    <string name="toast_registration_failed">Erro no registro</string>
+    <string name="toast_account_already_exists_with_this_email">Já existe uma conta com este email</string>
+    <string name="toast_please_select_at_least_one_choice">favor selecionar pelo menos uma escolha</string>
+    <string name="toast_enter_user_name">Inserir Nome de Usuário</string>
+    <string name="toast_enter_correct_email_id">Inserir id de email correto</string>
+    <string name="toast_enter_mobile_number">Inserir número de celular</string>
+    <string name="toast_please_enter_at_least_10_digit_mobile_number">Por favor, insira pelo menos 10 dígitos número de telemóvel</string>
+    <string name="toast_password_at_least_6_character_long">Senha de no mínimo 6 caracteres</string>
+    <string name="toast_enter_confirm_password">Confirmar Senha</string>
+    <string name="toast_password_and_confirm_password_should_be_same">Senha e Confirmação de Senha devem ser idênticas</string>
+    <string name="toast_accept_term_and_conditions">Aceitar Termos e Condições Inserir</string>
+    <string name="toast_enter">Enter</string>
+    <string name="toast_space_user_name">\tNome de usuário,</string>
+    <string name="toast_space_mobile_number">\tnúmero de celular,</string>
+    <string name="toast_space_at_least_10_digit_mobile_number">\tnúmero de celular com no mínimo 10 dígitos,</string>
+    <string name="toast_space_what_are_you">\tO que você é,</string>
+    <string name="toast_space_age">\tIdade,</string>
+    <string name="toast_space_interest">\tInteresse,</string>
+    <string name="toast_space_email_id">\tid de email,</string>
+    <string name="toast_space_correct_email_id">\tid de email correto,</string>
+    <string name="toast_space_password">\tSenha,</string>
+    <string name="toast_space_password_must_be_6_character_long">\\tSenha deve ter no mínimo 6 caracteres</string>
+    <string name="toast_space_confirm_password">\tConfirmar senha,</string>
+    <string name="toast_space_password_and_confirm_password_are_not_same">\tSenha e Confirmação de Senha não são iguais,</string>
+    <string name="toast_space_about_me">\tSobre mim,,</string>
+    <string name="toast_space_accept_term_and_conditions">\tAccept Term and conditions,</string>
+
+    <!-- ABOUT ME SCREEN TOAST -->
+    <string name="toast_enter_some_text">Inserir texto</string>
+    <string name="toast_dude_successfully_blocked">Homem bloqueado com sucesso</string>
+    <string name="toast_failure">falha</string>
+    <string name="toast_do_you_want_to_save_feedback">Quer salvar o feedback?</string>
+    <string name="toast_your_feedback_sent_successfully">Feedback enviado com sucesso.</string>
+    <string name="toast_feedback_not_send_try_again">Feedback não foi enviado, tentar novamente</string>
+    <string name="toast_dudes_data_not_found">Dados sobre os homens não foram encontrados</string>
+    <string name="toast_please_check_internet_connection">Favor Verificar sua Conexão de Internet</string>
+    <string name="toast_logout_fail_please_try_again">Falha ao sair, favor tentar novamente!</string>
+    <string name="toast_request_succefully_accepted">Pedido Aceito com sucesso.</string>
+    <string name="toast_request_not_responded">Pedido não respondido.</string>
+    <string name="toast_request_rejected">Pedido rejeitado.</string>
+    <string name="toast_enter_some_text_in_report_field">Inserir texto no campo de denúncia</string>
+    <string name="toast_report_successfully_send">Denúncia enviada com sucesso</string>
+    <string name="toast_location_points_not_available">Locais não disponíveis.</string>
+    <string name="toast_please_select_a_list">Favor Selecionar uma Lista</string>
+    <string name="toast_please_enter_a_list_name">Favor inserir Nome da Lista</string>
+    <string name="toast_list_already_exists">Lista Já Existente</string>
+    <string name="toast_select_at_least_one_guy">Selecionar pelo menos um Rapaz</string>
+    <string name="toast_no_list">Sem listas</string>
+    <string name="toast_no_members">Sem membros</string>
+    <string name="toast_guy_s_successfully_removed_from_favorites">Rapaz(es) removido(s) dos Favoritos com sucesso </string>
+    <string name="toast_guy_s_successfully_removed_from_list">Rapaz(es) removido(s) da lista com sucesso</string>
+    <string name="toast_guys_successfully_added">Rapaz(es) adicionado(s) com sucesso</string>
+    <string name="toast_guys_not_added">Rapaz(es) não adicionado(s)</string>
+    <string name="toast_list_successfully_deleted">Lista Deletada com Sucesso</string>
+    <string name="toast_gps_services_cannot_track_your_current_location">Os serviços de GPS não foram capazes de detectar sua localização atual.</string>
+    <string name="toast_connection_loss_please_login_again">conexão perdida, favor fazer o login novamente</string>
+    <string name="toast_unsupported_file">Arquivo não suportado</string>
+    <string name="toast_dude_successfully_added">Rapaz adicionado com sucesso</string>
+    <string name="toast_dude_not_added">Rapaz não adicionado</string>
+    <string name="toast_no_message_found">Nenhuma mensagem foi encontrada.</string>
+    <string name="toast_reached_last_loaded_guy">Ir para o último homem carregado</string>
+    <string name="toast_reach_end_of_images">Ir para o Fim das Imagens</string>
+    <string name="toast_reach_start_of_images">Ir para o Início das Imagens</string>
+    <string name="toast_request_already_send">Pedido já enviado.</string>
+    <string name="toast_user_currently_logout">Usuário não está online.</string>
+    <string name="toast_request_send_failed_try_again">Envio de pedido falhou, tente novamente.</string>
+    <string name="toast_added_to_favorites">Adicionado aos Favoritos</string>
+    <string name="toast_removed_from_favorites">Removido dos favoritos</string>
+    <string name="toast_like_request_successfully_send">Pedido de "curtir" enviado com sucesso.</string>
+    <string name="toast_you_allready_send_an_request">Você já enviou um pedido.</string>
+    <string name="toast_you_allready_send_an_request">Inserir</string>
+    <string name="toast_fail">Erro</string>
+    <string name="toast_your_feedback_sent_successfully">Feedback enviado com sucesso.</string>
+    <string name="toast_feedback_not_send_try_again">Feedback não foi enviado, tentar novamente</string>
+    <string name="toast_no_guys_found_expand_search">Nenhum rapaz encontrado. Expandir Busca</string>
+    <string name="toast_enter_city_name">Inserir nome de cidade..</string>
+    <string name="toast_no_more_guys_to_show">Ninguém mais para mostrar</string>
+    <string name="toast_no_notification_found">Nenhuma notificação encontrada.</string>
+    <string name="toast_failed_try_again">erro, tentar novamente.</string>
+    <string name="toast_edit_profile">Editar Perfil</string>
+    <string name="toast_atleast_one_option_must_be_selected">Pelo menos uma opção deve ser selecionada</string>
+    <string name="toast_profile_updated_successfully">Perfil Atualizado com Sucesso</string>
+    <string name="toast_please_select_the_currect_birth_date">Favor selecionar a data de nascimento correta</string>
+    <string name="toast_you_must_be_18_year_old_or_above">Você deve ter 18 anos ou mais.</string>
+    <string name="toast_you_must_be_75_year_old_or_below">Você deve ter 75 anos ou menos.</string>
+    <string name="toast_at_least_one_must_be_selected">Pelo menos uma deve ser selecionada.</string>
+    <string name="toast_account_successfully_deleted">Conta deletada com sucesso.</string>
+    <string name="toast_fail_to_delete_account">Falha ao deletar conta</string>
+    <string name="toast_please_enter_username">Favor Inserir Nome de Usuário</string>
+    <string name="toast_please_enter_email_address">Favor Inserir Endereço de Email</string>
+    <string name="toast_please_enter_correct_email_address">Favor Inserir Endereço de Email correto</string>
+    <string name="toast_enter_old_password">Inserir senha antiga</string>
+    <string name="toast_enter_new_password">Inserir senha nova</string>
+    <string name="toast_new_password_must_be_6_character_long">Nova senha deve ter no mínimo 6 caracteres.</string>
+    <string name="toast_new_password_and_confirm_new_password_are_not_same">Nova senha e confirmação de nova senha não são iguais</string>
+    <string name="toast_setting_updated_successfully">Configuração Atualizada com Sucesso</string>
+    <string name="toast_password_did_not_change">Senha não foi modificada</string>
+    <string name="toast_setting_not_updated">Configuração Não Atualizada</string>
+    <string name="toast_profile_not_updated">Perfil Não Atualizado</string>
+    <string name="toast_password_changed_successfully">Senha modificada com sucesso</string>
+    <string name="toast_password_was_not_changed">Senha não foi modificada</string>
+    <string name="toast_list_deleted_successfully">Lista deletada com sucesso</string>
+    <string name="toast_list_not_edited_please_try_again">Lista não editada, favor tentar novamente</string>
+    <string name="toast_list_edited_successfully">Lista editada com sucesso</string>
+    <string name="toast_list_not_edited_please_try_again">Lista não editada, favor tentar novamente</string>
+    <string name="toast_please_check_network_connection">Favor verificar conexão de internet</string>
+    <string name="toast_please_wait">Por favor, aguarde ......</string>
+    <string name="toast_chat_history_successfully_deleted">Histórico de chat deletado com sucesso</string>
+    <string name="toast_chat_history_not_deleted_try_again">Histórico de chat não deletado, tente novamente</string>
+    <string name="toast_network_is_not_enabled_please_enable_your_device_network_and_continue">Rede não habilitada, favor habilitar a rede de seu dispositivo e continuar</string>
+    <string name="toast_dude_removed_from_favorites">Rapaz Removido dos Favoritos.</string>
+    <string name="toast_request_successfully_send">Pedido enviado com sucesso.</string>
+    <string name="toast_please_connect_to_the_internet">Por favor conecte-se à internet</string>
+    <string name="toast_at_least_one_interest_must_be_selected">Pelo menos um interesse deve ser selecionado</string>
+    <string name="toast_you_must_be_18_to_75_years_old">Você deve ter de 18 a 75 anos de idade</string>
+    <string name="html_term_and_condition">
+<![CDATA[<p> Bem-vindo ao Krave, um produto de software aplicativo móvel de HiBall, LLC. Os usuários que acessar, baixar, usar, adquirir e / ou subscrever os serviços devem fazê-lo nos seguintes termos e condições do serviço e acompanhamento da Política de Privacidade.
+Antes de usar o aplicativo móvel Krave ou qualquer serviço HiBall, LLC por favor leia cuidadosamente os seguintes Termos e Condições de Uso. Ao acessar, baixar, usando, compra e / ou inscrever-se a aplicação de software móvel Krave, você reconhece que leu, entendeu e concorda em ficar vinculado aos seguintes Termos e Condições de Uso, incluindo quaisquer futuras modificações a estes Termos e Condições de Serviço (na totalidade) sem limitação ou qualificação. </p>
+Este contrato é feito entre você e Krave (\"Acordo\"). O presente Acordo aplica-se a todos os nossos sites ou dispositivos móveis que estão oferecendo o serviço. Por favor, leia este Acordo cuidadosamente antes de se registrar para o serviço. Ao se registrar para o serviço, você se tornar um usuário software aplicativo móvel Krave, e você concorda em ficar vinculado aos termos e condições deste acordo e desde que você continue a ser um usuário e / ou assinante aplicação.
+<p> SE VOCÊ NÃO CONCORDA COM OS TERMOS E CONDIÇÕES DO PRESENTE ACORDO, POR FAVOR NÃO registrar para o serviço. OS TERMOS E CONDIÇÕES DESTE CONTRATO ESTÃO SUJEITOS A MUDANÇAS feita por nós, a qualquer tempo, em vigor mediante aviso prévio, QUE notificação será considerada como tendo sido concedidas mediante o nosso lançamento da versão atual deste Acordo sobre o SERVIÇO. </p>
+<p> Neste Contrato as seguintes palavras têm os seguintes significados, a menos que o contexto exija de outra forma: </p>
+<p> \"Acordo\" significa o acordo entre você e nós incorporando esses termos e condições para a prestação do serviço, conforme alterada de tempos em tempos, de acordo com os termos e condições estabelecidos neste documento; \"Nós, Nos, Nosso\", a aplicação móvel Krave ou HiBall, LLC; e \"Você, Seu, você mesmo\", a pessoa que se regista para o Serviço, aceita os termos e condições deste Contrato e cujo pedido para o uso ea subscrição do serviço é aceito por nós.
+ELEGIBILIDADE: MENORES NÃO PODERÁ USAR O SERVIÇO OU inscrever. Ao se tornar um usuário, você declara e garante que tem pelo menos 18 anos de idade. Se você está em um país ou local onde 21 é a idade legal, em seguida, que a idade se aplica aqui. Afirmação do estado adulto atual: Você afirma e garante que você está atualmente sobre a idade de dezoito (18) anos ou vinte e um (21) em locais onde que é a idade legal. Ao usar o aplicativo móvel Krave, você declara e garante que tem o direito, autoridade e capacidade para celebrar este Acordo e para cumprir os termos e condições deste acordo. Sua associação para o Serviço é para seu uso pessoal e exclusivo. Você não pode autorizar terceiros a utilizar sua adesão e você não pode ceder ou transferir sua conta para qualquer outra pessoa ou entidade.
+REGISTRO E ASSINATURA: Embora você pode se registrar como um usuário do Serviço de graça, se você quiser usar o Serviço plena aplicação para iniciar a comunicação com outros membros e usar certas outras partes do Serviço, Você deve se tornar um assinante e pagar a assinatura taxas que são estabelecidos. Esta lista de preços é parte deste Acordo e nos reservamos o direito de, a qualquer momento, de alterar as taxas ou encargos para utilizar o Serviço. Para se tornar um usuário do aplicativo, você deve se registrar para o serviço. Quando e se você se registrar para se tornar um usuário Krave, Você concorda em fornecer informações precisas, atuais e completas sobre si mesmo, conforme solicitado pelo nosso ecrã de registo (\"Registro Dat\"), e para manter e atualizar suas informações para mantê-las atualizadas, atuais e completas. Você concorda que nós podemos confiar em seu registro de dados tão precisos, atuais e completas. Você reconhece que se o seu registo de dados é falsa, incorreta, desatualizada ou incompleta, sob qualquer aspecto, Reservamo-nos o direito de rescindir este acordo e sua utilização do Serviço e, nesse caso, você não terá direito a um reembolso de qualquer taxas de subscrição não utilizadas. </p>
+<p> AVISO LEGAL SOBRE LOCAL DE DADOS: Os Krave serviços de aplicativos móveis são destinados apenas como, serviços baseados em localização pessoais para uso individual e não deve ser utilizado ou invocado como um sistema localizador de emergência, usado durante a condução ou condução de um veículo a motor ou veículo de qualquer tipo; o pedido não deve ser usado durante a operação de máquinas de qualquer tipo, nem usado em conexão com quaisquer ambientes perigosos que exijam desempenho à prova de falhas, ou qualquer outra aplicação em que a falha ou imprecisão de tal pedido ou os serviços Krave possa levar diretamente à lesão corporal , morte, danos físicos ou danos materiais. Tal como acontece com todos os dispositivo móvel ou uso do aplicativo, você é responsável por garantir que a sua utilização não comprometa a sua segurança pessoal e bem-estar. A aplicação do bom senso por parte do utilizador é da maior importância e fundamental. </p>
+<p> PRAZO E RESCISÃO: O presente acordo permanecerá em pleno vigor e efeito, enquanto você usar o Serviço. Você pode encerrar o uso do serviço ou assinatura a qualquer momento, por qualquer motivo, seguindo as instruções na seção de serviços ao usuário, ou após o recebimento por nós de sua notificação por escrito ou e-mail de rescisão. Ou você ou nós pode encerrar o uso do serviço e subscrição, removendo o seu perfil, a qualquer momento, por qualquer motivo, com ou sem explicação, eficaz mediante o envio de notificação por escrito ou e-mail para a outra parte. Após a rescisão por nós sem justa causa, nós reembolsará, pro rata, qualquer porção de qualquer pagamento de assinatura que temos recebido de você. No caso em que (a) você encerrar sua assinatura ou usar ou (b) Nós determinamos, a nosso exclusivo critério, que você violou este acordo. Você não terá direito a nem seremos responsáveis ​​perante si por qualquer reembolso de qualquer parte não utilizada de quaisquer pagamentos de assinaturas a temos recebido de você, e nós pode continuar a barrar seu uso do serviço no futuro. Mesmo depois de seu uso ou subscrição for rescindido, o presente acordo permanecerá em vigor. </p>
+<p> DIREITOS DE PROPRIEDADE: Você declara e garante a nós que as informações postadas em seu perfil, incluindo Sua fotografia são postados por você e que você é o autor exclusivo de seu perfil e proprietário exclusivo de suas fotografias. Você atribuir a nós, com plena garantia título, todos os direitos autorais em seu perfil e suas fotografias postadas, a qualquer momento, em conexão com o uso do Serviço. Você renuncia a absolutamente todos e quaisquer direitos morais de ser identificado como autor de seu perfil e proprietário da Sua fotografia e quaisquer outros direitos similares em qualquer jurisdição do mundo. Além disso, outros membros podem incluir informações, que tem proteção de direitos autorais, se é ou não identificados como direitos autorais direitos de autor. Exceto pelas informações que está no domínio público ou para o qual tenha sido dada autorização expressa por, Você não vai copiar, modificar, publicar, transmitir, distribuir, executar, exibir ou vender qualquer informação proprietária escrito. Ao publicar informações, fotografias ou conteúdo no aplicativo móvel Krave, você automaticamente concede, e você representa e garante que tem o direito de conceder, a Nós e outros membros, gratuitamente, uma licença irrevogável, perpétua, não-exclusiva, royalty -livre, totalmente paga, licença mundial para usar, copiar, executar, exibir, promover, publicar e distribuir informação, tais, conteúdo e fotografias, e preparar trabalhos derivados de, ou incorporar em outros trabalhos, tais informações e conteúdo, e conceder e autorizar sublicenças do precedente. </p>
+<p> A empresa não pode garantir a segurança da privacidade das informações que você fornecer através do uso dos serviços Krave, nomeadamente através da utilização da Internet e e-mail, e você concorda em liberar o aplicativo móvel Krave e HiBall, LLC e seus diretores de toda e qualquer responsabilidade em conexão com o uso de tais informações por terceiros.
+<p> A empresa não é responsável por, e não pode controlar, o uso por outros de todas as informações que você fornece ao usar o aplicativo Krave e você deve tomar cuidado na selecção das informações pessoais fornecidas a terceiros, incluindo fotografias e imagens exibidas ou enviado através do aplicativo móvel Krave;
+Alguns usuários do aplicativo Krave pode, sem autoridade e em violação do presente acordo, fazer gravações de você e / ou qualquer informação ou imagens que você fornece, e você concorda em liberar HiBall, LLC e Krave de toda e qualquer responsabilidade em relação a o uso de tais ações / gravações por outras partes; e HiBall, LLC e Krave não pode assumir qualquer responsabilidade pelo conteúdo postado por outros usuários do aplicativo Krave, e você também concorda em liberar o Krave e HiBall, LLC de toda e qualquer responsabilidade em conexão com o conteúdo de qualquer comunicação que você pode receber ou ver de outros usuários; </p>
+<p> A modificação deste acordo: Reservamo-nos o direito, a nosso critério, de alterar, modificar, adicionar ou remover partes deste acordo ou quaisquer políticas a qualquer momento. Por favor, verifique este acordo e todas as políticas periodicamente. Seu uso continuado do pedido Krave após a publicação de quaisquer modificações ou alterações constitui a sua aceitação vinculativa de tais mudanças. Autorização para se comunicar e Contato, aviso de portadora Encargos: Ao fazer o download e usar o aplicativo Krave, você está explicitamente concordar em permitir que outros usuários ea empresa se comunicar com você por vários meios, incluindo qualquer e-mail, voz, vídeo ou mensagens móveis, habilitado pelo seu dispositivo móvel. Este consentimento pode ser no lugar de, ou em adição a, quaisquer ações ou consentimentos opt-in específicos necessários ou que você pode fornecer no que respeita o seu consentimento para ser contactado pela empresa ou por outros usuários. </p>
+<p> Você reconhece e aceita que a utilização do aplicativo Krave ea partilha de mensagens com outros usuários ea empresa pode resultar em encargos, tais como dados e mensagens taxas, bem como taxas de acesso, sendo aplicado diretamente em sua conta sem fio seu provedor de serviços sem fio de telecomunicações \"Transportador\" ou pode ser deduzido de sua conta. Além de todos os outros termos e condições estabelecidos herin, suas relações com qualquer operadora em conexão com a aplicação Krave ou qualquer parte dele, são exclusivamente entre você eo transportador. A empresa não será responsável por qualquer parte de tais negociações. SEU USO DO SERVIÇO: Como um usuário e assinante, você concorda que: </p>
+<p> <br> (1) Você vai usar o serviço de aplicações Krave de uma forma consistente com todas e quaisquer leis e regulamentos aplicáveis. Você não vai se envolver em propagandas para, ou solicitação de, outros usuários do aplicativo móvel Krave para comprar ou vender quaisquer produtos ou serviços através do Serviço. Você não pode transmitir nenhuma corrente ou junk e-mail para outros usuários, incluindo os pedidos de caridade ou pedidos de assinaturas. Você é o único responsável por suas interações com outros usuários e assinantes. Reservamo-nos o direito, mas não tem nenhuma obrigação, de monitorar e / ou mediar disputas entre você e outros usuários do aplicativo ou assinantes. </br>
+<br> (2) Você é o único responsável pelo conteúdo ou informações que você publicar ou exibir (doravante, \"post\") sobre a aplicação móvel Krave, ou transmitir para outros usuários ou assinantes. Você não irá publicar sobre a aplicação móvel Krave, ou transmitir para outros usuários ou assinantes ou para nós ou dos nossos funcionários, qualquer difamatório, abusivo, obsceno, profano, ofensivo, ameaçador, ofensivo, racialmente ofensivo, ou material ilegal, ou qualquer material que infrinja ou viole outro partido \'s direitos (incluindo, mas não limitado a, direitos de propriedade intelectual e direitos de privacidade e publicidade). Você não vai incluir em seu perfil quaisquer referências anatômicas ou sexuais ofensivos ou ofensivo linguagem sexualmente sugestivas ou conotativo, e você não vai postar fotos que contenham nudez. Reservamo-nos o direito de rejeitar qualquer perfil ou foto que não cumpra com as proibições estabelecidas nesta seção e, na medida em que nós determinamos, a nosso exclusivo critério, a fazê-lo; Você não terá direito a um reembolso de quaisquer pagamentos não utilizados de subscrição que temos recebido de você. Você não pode usar o aplicativo Krave para fins ilegais, ou em violação de qualquer lei local, estadual, nacional ou o direito internacional, incluindo, sem limitação, as leis que regem a propriedade intelectual e outros direitos de propriedade, proteção de dados e privacidade, e importação ou exportação controle; </br>
+<br> (3) comunicações de e-mail enviadas a partir de nós ou através de nós são projetados para tornar a sua experiência de aplicativo móvel Krave agradável. Ao tornar-se um usuário ou assinante, Você concorda especificamente para aceitar e concorda em receber comunicações de e-mail iniciadas a partir Conosco ou através Us, incluindo, sem limitação: e-mails de notificação de mensagens, ou Push Notifications, notificações de mensagens de texto, e-mails ou Push Notifications informando sobre eventos e Nós organizamos festas, e-mails informando sobre promoções corremos e e-mails informando sobre alterações no Serviço. Se você não quiser receber qualquer das nossas comunicações por e-mail, por favor, não se registrar conosco para o serviço. </br>
+<br> (4) Você concorda que não temos qualquer responsabilidade ou obrigação pela exclusão, corrupção ou falha no armazenamento de mensagens ou outros conteúdos mantidos ou transmitidos pelo nosso Serviço. Você reconhece que as características, parâmetros ou outros serviços que oferecemos pode mudar a qualquer momento. Você reconhece que Reservamo-nos o direito de sair, denunciar, apagar ou expurgar sua conta do serviço se estiver inativa. \"Inativo\" significa que você não tenha o login para o serviço por um determinado período de tempo, conforme determinado por nós, em nosso critério exclusivo (no momento, nós consideramos uma conta a ser inativo após 12 meses). </br>
+<br> (5) Nossos funcionários de atendimento ao cliente está aqui para tornar a sua experiência móvel APP agradável fornecendo assistência e orientação para você. Quando se fala de nossos funcionários de atendimento ao cliente no telefone ou se comunicar com eles por qualquer outro meio, Você se comprometem a não ser abusivo, obsceno, profano, ofensivo, sexualmente orientado, ameaçador, ofensivo ou racialmente ofensivo. Caso qualquer um dos nossos funcionários de atendimento ao cliente se sentir, em qualquer ponto, ameaçado ou ofendido por sua conduta, Reservamo-nos o direito de rescindir imediatamente o seu uso do aplicativo móvel Krave e Você não terá direito ao reembolso de quaisquer pagamentos de assinaturas Temos recebidos de Você. Temos o direito de investigar e encerrar a sua usar se você tem usurpada o Serviço, ou se comporte de uma forma que pode ser considerado como impróprio, ilegal ou ilícita. O que se segue é uma parcial, mas não exaustiva, a lista dos tipos de ações que sejam ilegais ou proibidos nos termos deste Contrato: </br>
+<br> (a) Você não vai personificar qualquer pessoa ou entidade. </br>
+<br> (b) Você não vai \"perseguir\" ou de outra forma assediar qualquer pessoa. "</br>
+<br> (c) Você não pode expressar ou indicar que qualquer afirmação feita tenha a aprovação por nós, sem nosso consentimento prévio específico por escrito. </br>
+<br> (d) Você não pode usar nenhum robô, spider, aplicação de pesquisa / recuperação ou outro dispositivo manual ou automático ou processo para recuperar, indexar, \"mina de dados\", ou, de qualquer forma reproduzir ou burlar a estrutura ou apresentação de navegação do Serviço ou o seu conteúdo. </br>
+<br> (e) Você não irá publicar, distribuir ou reproduzir, de forma alguma, qualquer material protegido por direitos autorais, marcas comerciais ou outras informações proprietárias sem obter o consentimento prévio do proprietário de tais direitos exclusivos. "</br>
+<br> (f) Você não irá remover quaisquer direitos autorais, marcas registradas ou outros direitos de propriedade contidos no Serviço. </br>
+<br> (g) Você não vai interferir ou interromper qualquer serviço ou qualquer outro site, servidores ou redes conectadas a qualquer serviço ou site. </br>
+<br> (h) Você não irá publicar, e-mail ou transmitir qualquer material que contenha vírus de software ou qualquer outro código de computador, arquivos ou programas projetados para interromper, destruir ou limitar a funcionalidade de qualquer software ou hardware ou equipamento de telecomunicações. </br>
+<br> (i) Você não vai forjar cabeçalhos ou manipular identificadores a fim de disfarçar a origem de qualquer informação transmitida através do Serviço. </br>
+<br> (j) Você não vai \"frame\" ou \"espelho\" qualquer parte do Serviço, sem nosso consentimento prévio específico por escrito. </br>
+<br> (k) Você não vai usar metatags, códigos ou outros dispositivos que contenham qualquer referência ao Conosco ou do Serviço ou o site ligado ao Serviço, a fim de direcionar qualquer pessoa a qualquer outro site, para qualquer finalidade. </br >
+<br> (l) Você não irá modificar, adaptar, sublicenciar, traduzir, vender, fazer engenharia reversa, decifrar, descompilar ou desmontar qualquer parte do Serviço ou de qualquer software usado em ou para o Serviço ou causar ou permitir que outros a fazê-lo . </br>
+<br> (m) Você não pode remover, contornar, desativar, dano, ou de outra forma interferir em características relacionadas à segurança dos serviços de aplicação Krave, características que impedem ou restringem o uso ou a cópia de qualquer conteúdo acessível através dos serviços Krave ou recursos que imponham limitações sobre o uso dos serviços Krave; </br>
+<br> (n) Você não pode interferir intencionalmente com ou danificar o funcionamento dos serviços Krave ou usufruto qualquer usuário \'s destes, por qualquer meio, incluindo o upload ou de outra forma disseminar vírus, worms ou outros códigos maliciosos; </br>
+<br> (o) Você não pode gravar, reproduzir, publicar ou distribuir quaisquer comunicações de áudio, visual ou vídeo entre você e outro usuário, incluindo quaisquer mensagens, imagens ou gravações que obtidos a partir dos serviços de aplicação Krave ou o seu uso dos serviços; </br>
+<br> (p) Você não pode tentar obter acesso não autorizado aos serviços Krave, ou qualquer parte dele, outras contas, sistemas de computadores ou redes conectadas à aplicação Krave, ou qualquer parte dela, por meio de hacking, mineração de senha ou qualquer outro meio ou interferir ou tentar interferir com o bom funcionamento do aplicativo Krave ou quaisquer atividades realizadas no serviço da empresa; INDENIZAÇÃO PELOS ESTADOS: Você irá defender, indenizar e nós e nossos administradores, diretores, funcionários, agentes e terceiros inofensivo, por quaisquer perdas, custos, responsabilidades e despesas (incluindo honorários advocatícios razoáveis ​​\'taxas) relativo a ou resultante de Seu uso do Serviço, incluindo: </br>
+<br> (I) Sua violação deste Contrato; </br>
+<br> (II) qualquer alegação de que qualquer material que você enviar para nós ou transmitir ao Serviço de infringir ou violar os direitos autorais, marcas, segredos comerciais ou outra propriedade intelectual ou outros direitos de terceiros; e / ou "</br>
+<br> (III) Suas atividades em conexão com o Serviço. Esta indenização deve ser aplicado sem ter em conta a negligência de qualquer das partes, incluindo qualquer pessoa indenizada. </br> </p>
+<p> conteúdo on-line: Opiniões, conselhos, declarações, ofertas ou outras informações ou conteúdo disponibilizado através do Serviço, mas não diretamente por nós, são aqueles de seus respectivos autores, e não deve necessariamente ser invocado. Esses autores são os únicos responsáveis ​​por esse conteúdo. NÓS NÃO GARANTE A PRECISÃO, TOTALIDADE OU UTILIDADE DE QUALQUER INFORMAÇÃO NO SERVIÇO E NÓS não adotará nem endossam nem SOMOS RESPONSÁVEIS PELA VERACIDADE OU confiabilidade de qualquer opinião, conselho ou declaração apresentados pelas partes que não nós. EM NENHUMA CIRCUNSTÂNCIA SOMOS RESPONSÁVEIS POR QUALQUER perda ou dano resultante de qualquer um \'s confiança nas informações ou outro conteúdo postado no Serviço ou transmitido aos deputados. </p>
+<p> Nos reservamos o direito, mas não temos obrigação, de monitorar os conteúdos publicados nas áreas públicas do serviço. NÓS NÃO TERÁ O DIREITO DE REMOVER QUALQUER MATERIAL QUE, EM NOSSO CRITÉRIO, violem ou é acusado de violar, a lei ou este Contrato. Não obstante este direito, Você é o único responsável pelo Conteúdo DOS MATERIAIS você postar nas áreas públicas do Serviço e em suas mensagens privadas. E-mails e mensagens privadas enviadas entre você e outros membros que não são facilmente acessíveis ao público em geral serão considerados por nós como privada, na medida exigida pela lei aplicável. PROPRIEDADE INTELECTUAL. </p>
+<p> Todos os direitos de propriedade intelectual no e para o Serviço são e devem ser detidos por nós, absolutamente. Esses direitos incluem, mas não estão limitados a, direitos de banco de dados, direitos autorais, direitos de design (registrados ou não), marcas (registrados ou não) e de outros direitos similares, onde já existentes no mundo, juntamente com o direito a requerer a protecção do mesmo. Todas as outras marcas, logotipos, marcas de serviço, da empresa ou nomes de produtos estabelecidos no Serviço são de propriedade de seus respectivos proprietários. PRIVACIDADE: As informações pessoais (incluindo informações pessoais importantes) que você nos fornecer serão armazenadas em computadores. Você concorda com a nossa usando esta informação para construir um perfil de interesses, preferências e padrões de navegação e permitir que você a participar do Serviço. Você também concorda em ler, analisar, respeitar, defender e manter nossos termos e condições do mesmo. Se você estiver localizado fora dos Estados Unidos, por favor, note que as informações que você fornece está sendo enviado para os Estados Unidos. Ao se tornar um membro do Serviço, você concorda com os seus dados sejam enviados para os Estados Unidos e para as demais terceiros e jurisdições como podem estar envolvidos no fornecimento e operação do Serviço.
+ISENÇÃO DE RESPONSABILIDADE: pagarmos o serviço ON AN \"COMO ESTÁ\" BASE E CONCEDE NENHUMA GARANTIA DE QUALQUER TIPO, EXPRESSA, IMPLÍCITA, LEGAL, EM QUALQUER COMUNICAÇÃO COM NOSSOS REPRESENTANTES OU DE OUTRA FORMA COM US OU RESPEITO AO SERVIÇO. ESPECIFICAMENTE NEGAMOS QUALQUER GARANTIA DE COMERCIALIZAÇÃO, ADEQUAÇÃO A UM DETERMINADO FIM, OU NÃO-VIOLAÇÃO. ALÉM DISSO, NÃO GARANTE QUE O USO DO SERVIÇO SERÁ SEGURO, ININTERRUPTO, SEMPRE DISPONÍVEL OU SEM ERROS OU QUE O SERVIÇO ATENDERÁ ÀS SUAS EXIGÊNCIAS OU QUE OS DEFEITOS NO SERVIÇO SERÃO CORRIGIDOS WE negam responsabilidade por, e nenhuma garantia É FEITA COM RESPEITO A, conectividade e disponibilidade. </p>
+<p> Apesar de cada utilizador ou assinante deve concordar com os nossos termos e condições, não podemos garantir que cada membro é, pelo menos, a idade mínima exigida, nem aceitamos responsabilidade ou obrigação por qualquer conteúdo, comunicação ou outro uso ou acesso do Serviço por pessoas com idade inferior a 18 anos (ou 21 em locais onde que é a idade legal), em violação do presente Acordo. Além disso, é possível que outros membros ou utilizadores (incluindo utilizadores não autorizados, ou \"hackers\") pode publicar ou transmitir material obsceno ou ofensivo no Krave e que o Senhor possa ser involuntariamente expostos a tais materiais ofensivos e obscenos. Também é remotamente possível para os outros para obter informações pessoais sobre você, devido à sua utilização do Serviço, e que o destinatário possa utilizar essa informação para assediar ou ferir Você. Nós não somos responsáveis ​​pela utilização de qualquer informação pessoal que você divulgar no Serviço. Selecione cuidadosamente o tipo de informação que você postar no Serviço ou liberação para os outros. </p>
+Não assumimos qualquer responsabilidade, INDEPENDENTEMENTE DA FORMA DE AÇÃO, pelos actos ou omissões de outros usuários (incluindo utilizadores não autorizados), SEJA tais actos ou omissões ocorrem durante o USO DO SERVIÇO OU DE OUTRA FORMA. LIMITAÇÃO DE RESPONSABILIDADE: EM HIPÓTESE NÓS SERÁ RESPONSÁVEL POR QUAISQUER DANOS INCIDENTAIS, OU INDIRETO (INCLUINDO, SEM LIMITAÇÃO, DANOS POR PERDA DE DADOS, PERDA DE PROGRAMAS, CUSTO DE AQUISIÇÃO DE SERVIÇOS SUBSTITUTOS OU INTERRUPÇÃO DE SERVIÇO) DECORRENTES DO USO OU INCAPACIDADE DE USO DO SERVIÇO, MESMO QUE nós ou os nossos agentes ou representantes SABE OU TER SIDO INFORMADA SOBRE A POSSIBILIDADE DE TAIS DANOS, OU A QUALQUER PESSOA QUE NÃO SEJA VOCÊ. INDEPENDENTEMENTE DE QUALQUER COISA EM CONTRÁRIO AQUI CONTIDAS, A NOSSA RESPONSABILIDADE PARA COM VOCÊ POR QUALQUER CAUSA, E INDEPENDENTEMENTE DA FORMA DA AÇÃO, SERÁ SEMPRE LIMITADA AO VALOR PAGO, SE HOUVER, POR VOCÊ A NÓS PELO SERVIÇO DURANTE O TERMO da sua assinatura. </p>
+<p> NÓS NÃO realizar verificações de antecedentes OU DE OUTRA FORMA tela de utilizadores ou assinantes registro no Serviço de qualquer forma. COMO RESULTADO, NÓS NÃO SERÁ RESPONSÁVEL POR QUAISQUER DANOS, DIRETOS, INDIRETOS, INCIDENTAIS E / OU CONSEQÜENTES, DECORRENTES DO USO DESTE SERVIÇO, INCLUINDO, SEM LIMITAÇÃO, PREJUÍZOS DECORRENTES DE COMUNICAÇÃO E / OU REUNIÃO COM OUTROS MEMBROS DO O SERVIÇO, OU PESSOAS-lhe introduzido através do Serviço. TAIS DANOS incluem, sem limitação, danos físicos, LESÕES CORPORAIS E OU sofrimento emocional e desconforto.
+RECLAMAÇÕES: </p>
+<p> Para resolver uma queixa relativa ao Serviço, Você deve primeiro entrar em contato com nosso departamento de atendimento ao cliente em: support@iKrave.net. RESOLUÇÃO DE DISPUTAS: Este Contrato é regido pelas leis do Estado da Califórnia, sem consideração com seu conflito às disposições da lei. Você concorda com a jurisdição pessoal e foro em tribunais estaduais e federais do Estado da Califórnia, Cidade de Los Angeles. Este Contrato não será regido pela Convenção das Nações Unidas sobre Contratos para a Venda Internacional de Mercadorias, cuja aplicação está expressamente excluída. A seguir serviços são oferecidos por HiBall, LLC, PO Box 41-1059, Los Angeles, CA 90041. Eu li este contrato e concorda com todas as disposições contidas acima <br> <b> <b> <b> <b> </b> </b> </b> </b> </br> </p>]]>
+    </string>
+
+</resources>

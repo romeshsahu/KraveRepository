@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#e2e2e2" >
+
+        <RelativeLayout
+            android:id="@+id/frame"
+            android:layout_width="@dimen/row_edit_profile_interest_h_w"
+            android:layout_height="@dimen/row_edit_profile_interest_h_w" 
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/itemImageViewCheck"
+                android:layout_width="@dimen/row_setting_interest_h_w"
+                android:layout_height="@dimen/row_setting_interest_h_w"
+                android:layout_centerHorizontal="true"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/uncheck"
+                android:visibility="gone"
+                android:scaleType="fitXY" />
+
+            <ImageView
+                android:id="@+id/itemImageView"
+                android:layout_width="@dimen/row_edit_profile_interest_h_w"
+                android:layout_height="@dimen/row_edit_profile_interest_h_w"
+                android:layout_gravity="center"
+                android:src="@drawable/av_interestbox_college_up"
+                android:background="@color/find_dudes_bacground"
+                android:layout_margin="0.5dp"
+                android:scaleType="fitXY" />
+			<TextView
+	            android:id="@+id/itemNameTextView"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            
+	            android:text="COLLEGE"
+	            android:layout_alignParentBottom="true"
+	            android:layout_centerHorizontal="true"
+	            android:layout_marginBottom="5dp"
+	            android:textColor="#e2e2e2"
+	            android:textSize="@dimen/row_setting_interest_text_size" />
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+</LinearLayout>

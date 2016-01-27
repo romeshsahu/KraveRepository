@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/dialog_gallery_background"
+        android:orientation="vertical"
+        android:padding="10dp" >
+
+        <TextView
+            android:id="@+id/titel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:gravity="center"
+            android:text="@string/dialog_send_request_to_see_his_private_photo"
+            android:textColor="@color/gray"
+            android:textSize="@dimen/home2_text4_size" />
+
+        <TextView
+            android:id="@+id/sub_titel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:gravity="center"
+            android:text="@string/dialog_do_you_want_to_allow_him"
+            android:textColor="@color/gray"
+            android:textSize="@dimen/home2_text4_size" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/yes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:layout_weight="1"
+                android:background="@drawable/dialog_gallery_button_selector"
+                android:padding="10dp"
+                android:text="@string/dialog_yes"
+                android:textColor="@color/title_bar"
+                android:textSize="@dimen/home2_text4_size" />
+
+            <Button
+                android:id="@+id/no"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="3dp"
+                android:layout_weight="1"
+                android:background="@drawable/dialog_gallery_button_selector"
+                android:padding="10dp"
+                android:text="@string/dialog_no"
+                android:textColor="@color/black"
+                android:textSize="@dimen/home2_text4_size" />
+
+            <Button
+                android:id="@+id/ok"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="3dp"
+                android:layout_weight="1"
+                android:background="@drawable/dialog_gallery_button_selector"
+                android:padding="10dp"
+                android:text="@string/dialog_close"
+                android:textColor="@color/black"
+                android:textSize="@dimen/home2_text4_size"
+                android:visibility="gone" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

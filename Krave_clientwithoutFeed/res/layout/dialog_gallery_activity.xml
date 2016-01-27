@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/find_dudes_bacground" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/dialog_gallery_background"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp"
+            android:text="@string/dialog_this_is_how_people_see_you_on_krave_so"
+            android:textColor="@color/gray_color_text" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="50dp"
+            android:paddingRight="50dp"
+            android:text="@string/dialog_no_nudity_or_obscenity"
+            android:textColor="@color/gray_color_text" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="50dp"
+            android:paddingRight="50dp"
+            android:text="@string/dialog_use_a_clear_photo"
+            android:textColor="@color/gray_color_text" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="50dp"
+            android:paddingRight="50dp"
+            android:text="@string/dialog_be_in_a_well_lit_place"
+            android:textColor="@color/gray_color_text" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:paddingLeft="50dp"
+            android:paddingRight="50dp"
+            android:text="@string/dialog_be_alone_in_your_photo"
+            android:textColor="@color/gray_color_text" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@android:color/darker_gray" />
+
+        <Button
+            android:id="@+id/dialog_button_take_picture"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:background="@drawable/dialog_gallery_button_selector"
+            android:padding="10dp"
+            android:text="@string/dialog_take_picture"
+            android:textAllCaps="true" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@android:color/darker_gray" />
+
+        <Button
+            android:id="@+id/dialog_button_from_gallery"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:background="@drawable/dialog_gallery_button_selector"
+            android:padding="10dp"
+            android:text="@string/dialog_from_gallery"
+            android:textAllCaps="true" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@android:color/darker_gray" />
+
+        <Button
+            android:id="@+id/dialog_button_for_make_as_profile_image"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:background="@drawable/dialog_gallery_button_selector"
+            android:padding="10dp"
+            android:text="@string/dialog_make_profile_picture"
+            android:textAllCaps="true" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@android:color/darker_gray" />
+
+        <Button
+            android:id="@+id/dialog_button_delete_picture"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:background="@drawable/dialog_gallery_button_selector"
+            android:padding="10dp"
+            android:text="@string/dialog_delete_picture"
+            android:textAllCaps="true" />
+
+        <Button
+            android:id="@+id/dialog_button_cancel"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/dialog_gallery_button_orange_selector"
+            android:padding="10dp"
+            android:text="@string/dialog_cancel"
+            android:textAllCaps="true"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,7 @@
+gen/
+bin/
+*.iml
+*.swp
+*.swo
+local.properties
+

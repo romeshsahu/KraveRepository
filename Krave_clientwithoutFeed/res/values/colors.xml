@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="title_bar">#a90000</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="gray">#777777</color>
+    <color name="gray_light">#c1c1c1</color>
+    <color name="gray_color_text">#ffffff</color>
+    <color name="profile_pick_color">#bcbcbc</color>
+    <color name="home2_3_text_color">#ffffff</color>
+    <color name="unselect">#414042</color>
+    <color name="select">#A0000000</color>
+    <color name="unread_message">#55880000</color>
+    <color name="online">#14993f</color>
+    <color name="absent">#f26522</color>
+    <color name="offline">#f1f1f1</color>
+    <color name="blue">#2ECCFA</color>
+    <color name="text_shadow">#000000</color>
+    <color name="bg_light_blue">#EBF5FF</color>
+    <color name="transprent_color_code">#00ffffff</color>
+    <color name="row_home_bg_color">#A0000000</color>
+    <color name="red_button_up">#a90000</color>
+    <color name="red_button_down">#F26A6A</color>
+    <color name="gray_button_up">#707070</color>
+    <color name="gray_button_down">#B4B4B4</color>
+    <color name="find_dudes_bacground">#000000</color>
+    <color name="find_dudes_filter_bacground">#404040</color>
+    <color name="setting_and_filter_header_color">#a90000</color>
+    <color name="setting_header_text_color">#ffffff</color>
+
+    <!--
+#A79775
+
+#929381
+
+#FBDBAC
+
+#BD9468
+    -->
+
+</resources>

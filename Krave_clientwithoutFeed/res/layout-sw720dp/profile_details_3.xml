@@ -1,0 +1,93 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <include
+        android:id="@+id/title_bar"
+        layout="@layout/title_bar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/submitButton3"
+        android:layout_below="@+id/title_bar"
+        android:layout_gravity="center_vertical"
+        android:orientation="vertical" >
+
+        <TextView 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/registration_what_do_you_krave"
+            android:gravity="center_vertical|center_horizontal"
+            android:textSize="50dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/black"/>
+        <ListView
+            android:id="@+id/list2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="@null"
+			android:dividerHeight="0dp" >
+        </ListView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/progressIcons"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:visibility="invisible"
+        android:layout_marginBottom="@dimen/progress_icons_bottom_margin" >
+
+        <ImageView
+            android:id="@+id/progressIcon_1"
+            android:layout_width="@dimen/progress_icon_size"
+            android:layout_height="@dimen/progress_icon_size"
+            android:background="@drawable/normal_icon" 
+            android:visibility="gone"/>
+
+        <ImageView
+            android:id="@+id/progressIcon_2"
+            android:layout_width="@dimen/progress_icon_size"
+            android:layout_height="@dimen/progress_icon_size"
+            android:layout_marginLeft="@dimen/ui_comp_margin"
+            android:background="@drawable/normal_icon" />
+
+        <ImageView
+            android:id="@+id/progressIcon_3"
+            android:layout_width="@dimen/progress_icon_size"
+            android:layout_height="@dimen/progress_icon_size"
+            android:layout_marginLeft="@dimen/ui_comp_margin"
+            android:background="@drawable/normal_icon" />
+
+        <ImageView
+            android:id="@+id/progressIcon_4"
+            android:layout_width="@dimen/progress_icon_size"
+            android:layout_height="@dimen/progress_icon_size"
+            android:layout_marginLeft="@dimen/ui_comp_margin"
+            android:background="@drawable/selected_icon" />
+        <ImageView
+            android:id="@+id/progressIcon_5"
+            android:layout_width="@dimen/progress_icon_size"
+            android:layout_height="@dimen/progress_icon_size"
+            android:layout_marginLeft="@dimen/ui_comp_margin"
+            android:background="@drawable/normal_icon" />
+        <ImageView
+            android:id="@+id/progressIcon_6"
+            android:layout_width="@dimen/progress_icon_size"
+            android:layout_height="@dimen/progress_icon_size"
+            android:layout_marginLeft="@dimen/ui_comp_margin"
+            android:background="@drawable/normal_icon" />
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/submitButton3"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/registration_icon_submit_height"
+		android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/register_btn_submit" />
+
+</RelativeLayout>

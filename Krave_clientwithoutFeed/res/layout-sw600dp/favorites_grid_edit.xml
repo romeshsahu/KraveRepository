@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/unreadMessageLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <RelativeLayout
+            android:layout_width="@dimen/favorites_grid_image_view_h_w"
+            android:layout_height="@dimen/favorites_grid_image_view_h_w"
+            android:layout_margin="25dp" >
+
+            <ImageView
+                android:id="@+id/marker"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_centerInParent="true" />
+
+            <ImageView
+                android:id="@+id/userimage2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:src="@drawable/com_facebook_profile_picture_blank_square" />
+
+            <ImageView
+                android:id="@+id/notification"
+                android:layout_width="@dimen/header_notification_height_weight"
+                android:layout_height="@dimen/header_notification_height_weight"
+                android:visibility="gone"
+                android:src="@drawable/notification" />
+            
+			<ImageView
+	            android:id="@+id/selectDude"
+	            android:layout_width="30dp"
+	            android:layout_height="30dp"
+	            android:layout_alignParentRight="true"
+	            android:layout_margin="10dp"
+	            android:background="@drawable/av_new_favorites_checkdown" />
+            
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:padding="10dp"
+                    android:background="@color/row_home_bg_color"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:shadowDx="1"
+                        android:shadowDy="1"
+                        android:shadowRadius="2"
+                        android:text="MUCH TEXT"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/row_home_name_text_size" />
+
+                    <TextView
+                        android:id="@+id/email"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:shadowDx="1"
+                        android:shadowDy="1"
+                        android:shadowRadius="2"
+                        android:textColor="@color/white"
+                        android:text="WOW"
+                        android:textSize="@dimen/row_home_distance_text_size" />
+                </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

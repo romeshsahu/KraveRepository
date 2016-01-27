@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+    
+    <FrameLayout
+	    android:layout_width="@dimen/fragment_profile_image_h_w_small"
+	    android:layout_height="@dimen/fragment_profile_image_h_w_small"
+	    >
+	    <ImageView
+	        android:id="@+id/row_grid_photo"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:background="@drawable/edit_profile_add_photo"
+	        android:padding="@dimen/registration_icon5_padding"
+	        android:scaleType="fitCenter" />
+	    <ImageView
+			android:id="@+id/row_grid_stamp"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:padding="@dimen/registration_icon5_padding"
+			android:scaleType="fitXY"
+			android:src="@drawable/stamp"
+			android:visibility="gone" />
+			
+        <ImageView
+            android:id="@+id/lock_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|right"
+            android:padding="@dimen/registration_icon5_padding"
+            android:src="@drawable/ico_lock"
+            android:visibility="gone" />
+	</FrameLayout>
+</RelativeLayout>

@@ -1,0 +1,61 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/av_new_splash_background" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@drawable/av_new_splash_krave_logo" />
+
+    <LinearLayout 
+        android:id="@+id/ll_splash_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="invisible"
+        android:layout_alignParentBottom="true">
+        
+	    <ImageView
+			android:id="@+id/signup"
+	        android:layout_width="match_parent"
+	        android:layout_height="80dp"
+	        android:padding="5dp"
+	        android:src="@drawable/av_new_splash_signup_up" />
+	    
+	    <LinearLayout 
+	        android:id="@+id/linearLayout1"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal"
+	        android:layout_marginTop="15dp"
+	        android:layout_marginBottom="30dp"
+	        android:gravity="center_horizontal"
+	        android:layout_alignParentBottom="true">
+	    		<TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/splash_already_a_krave_user"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="#f0f0f0"
+                    android:layout_margin="5dp"
+                    android:textSize="25dp" />
+	    		<TextView
+                    android:id="@+id/tvLoginHere"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/splash_login_here"
+                    android:layout_margin="5dp"
+                    android:textStyle="bold"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="#f0f0f0"
+                    android:textSize="25dp" />
+	    </LinearLayout>
+	    
+    </LinearLayout>
+    
+</RelativeLayout>

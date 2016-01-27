@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/unreadMessageLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" >
+
+        <com.ps.utill.CustomLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <ImageView
+                android:id="@+id/userimage2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+               
+                android:padding="1dp"
+                android:src="@drawable/com_facebook_profile_picture_blank_square" />
+
+            <ImageView
+                android:id="@+id/imageView1Stamp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="1dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/stamp"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/lock_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:padding="@dimen/registration_icon5_padding"
+                android:src="@drawable/ico_lock"
+                android:visibility="gone" />
+        </com.ps.utill.CustomLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/unreadMessageLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+       >
+
+        <com.ps.utill.CustomLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <ImageView
+                android:id="@+id/marker"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_centerInParent="true" />
+
+            <ImageView
+                android:id="@+id/userimage2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:background="@drawable/offline_user"
+                
+                android:src="@drawable/com_facebook_profile_picture_blank_square" />
+
+            <ImageView
+                android:id="@+id/imageView1Stamp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+              
+                android:scaleType="fitXY"
+                android:src="@drawable/stamp"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/onlineIndicator"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_margin="10dp"
+                android:background="@drawable/select_onlinenow" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                
+                android:background="@color/row_home_bg_color"
+                android:orientation="vertical"
+                android:padding="5dp" >
+
+                <TextView
+                    android:id="@+id/name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:shadowDx="1"
+                    android:shadowDy="1"
+                    android:shadowRadius="2"
+                    android:text="MUCH TEXT , VERY AGE"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/row_home_name_text_size" />
+
+                <TextView
+                    android:id="@+id/email"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:shadowDx="1"
+                    android:shadowDy="1"
+                    android:shadowRadius="2"
+                    android:text="WOW"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/row_home_distance_text_size" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                
+                android:background="@null" >
+
+                <ImageView
+                    android:id="@+id/transPic"
+                    android:layout_width="@dimen/row_home_transit_imageview_size"
+                    android:layout_height="@dimen/row_home_transit_imageview_size"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:contentDescription="@null"
+                    android:src="@drawable/transit_biking" />
+
+                <TextView
+                    android:id="@+id/trans"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@+id/transPic"
+                    android:shadowDx="1"
+                    android:shadowDy="1"
+                    android:shadowRadius="2"
+                    android:text="1 hour"
+                    android:textColor="@color/white"
+                    android:textSize="10sp" />
+            </RelativeLayout>
+        </com.ps.utill.CustomLayout>
+    </LinearLayout>
+
+</LinearLayout>

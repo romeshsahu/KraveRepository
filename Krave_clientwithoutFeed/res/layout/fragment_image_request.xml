@@ -1,0 +1,82 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainview"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/find_dudes_bacground"
+    android:orientation="vertical" >
+
+    <!--
+    <RelativeLayout
+        android:id="@+id/grayBar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/chat_friend_gray_bar_height"
+        android:background="#f2f2f2"
+       >
+
+        <LinearLayout
+            android:id="@+id/viewDudeProfileLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="10dp"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_margin="@dimen/chat_friend_icon_margin"
+                android:src="@drawable/user" />
+
+            <TextView
+                android:id="@+id/count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="0 Friend" />
+        </LinearLayout>
+    </RelativeLayout>
+    -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <ListView
+            android:id="@+id/list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+        </ListView>
+
+        <LinearLayout
+            android:id="@+id/llLoading"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:background="#ffffff"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:visibility="gone" >
+
+            <ImageView
+                android:id="@+id/loadingView"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_margin="10dp"
+                android:src="@drawable/load_new" />
+
+            <TextView
+                android:id="@+id/loading"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Loading...."
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#707070" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>
